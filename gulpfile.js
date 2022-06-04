@@ -39,7 +39,7 @@ function jsTask() {
 		.pipe(dest("js"));
 }
 
-let version = new Date().getTime() / 1000;
+let version = new Date().getTime();
 
 // cachebusting task
 function cacheBustTask() {

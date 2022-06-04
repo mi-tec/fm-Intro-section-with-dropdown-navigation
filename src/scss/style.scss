@@ -2,11 +2,11 @@
  * Arthor : Migara Karunarathne
  */
 
-@import "constants/reset";
-@import "constants/breakpoints";
-@import "constants/typo";
-@import "constants/map";
+@import "globals/reset";
+@import "globals/breakpoints";
+@import "globals/typo";
+@import "globals/map";
 
-body {
-	display: flex;
-}
+@import "functions/index";
+@import "views/index";
+@import "views/header";
